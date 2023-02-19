@@ -1,1 +1,158 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+body {
+    height: 100vh;
+
+    background-color: #dedffd;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    width: 80%;
+    height: 90%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #ffffff;
+
+    border-radius: 44px;
+}
+
+.box-form {
+    width: 60%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.text{
+    width: 360px;
+    height: 80%;
+
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 8px;
+    color: #344054;
+}
+
+p{
+    color: #667085;  
+}
+
+form {
+    width: 360px;
+    height: 517px;
+
+}
+
+form .input-group {
+    width: 100%;
+    height: 100%;
+
+    display: felx;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+form .input-group .input-box {
+    width: 100%;
+    height: 72px;
+
+    margin-bottom: 8px;
+}
+
+form .input-group .input-box label {
+    color: #344054;
+}
+
+form .input-group .input-box input {
+    width: 100%;
+    height: 44px;
+
+    margin-block: 8px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #D0D5DD;
+    padding-left: 10px;
+}
+
+
+form .input-group .input-box input::placeholder{
+    color: #667085;
+    font-size: 15px;
+}
+
+form .input-group .remember {
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+    color: #344054;
+    
+}
+
+form .input-group .remember input {
+    border: 1px solid #D0D5DD;
+    margin-right: 8px;
+}
+
+form .input-group .remember a {
+    text-decoration: none;
+    color: #5429FF;
+}
+
+form .input-group .button-box {
+    width: 100%;
+}
+
+form .input-group .button-box button:nth-child(1) {
+    background-color: #5429FF;
+    color: #CBCCE8;
+}
+
+form .input-group .button-box button {
+    width: 100%;
+    height: 44px;
+
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #344054;
+
+}
+
+.sign {
+    width: 360px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-img  img{
+    height: 850px;
+    margin-right: 15px;
+}
