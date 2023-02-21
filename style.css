@@ -74,30 +74,36 @@ form .input-group {
 
 form .input-group .input-box {
     width: 100%;
-    height: 72px;
 
-    margin-bottom: 8px;
+    margin-block: 5px;
+
 }
 
 form .input-group .input-box label {
     color: #344054;
+    margin-bottom: 10px;
+
 }
 
 form .input-group .input-box input {
     width: 100%;
     height: 44px;
 
-    margin-block: 8px;
     border-radius: 8px;
     outline: none;
     border: 1px solid #D0D5DD;
     padding-left: 10px;
+    margin: 10px 0px 5px 0px;
 }
 
 
 form .input-group .input-box input::placeholder{
     color: #667085;
     font-size: 15px;
+}
+
+form .input-group .input-box small{
+    visibility: hidden;
 }
 
 form .input-group .remember {
@@ -155,5 +161,18 @@ form .input-group .button-box button {
 .box-img  img{
     height: 850px;
     margin-right: 15px;
+}
+
+form .input-group .input-box.success input {
+    border-color: limegreen;
+}
+
+form .input-group .input-box.error input {
+    border-color: #ff0000;
+}
+
+form .input-group .input-box.error small {
+    border-color: #ff0000;
+    visibility: visible;
 }
 
