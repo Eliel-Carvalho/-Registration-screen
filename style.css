@@ -59,12 +59,6 @@ form {
     width: 360px;
     height: 517px;
 
-}
-
-form .input-group {
-    width: 100%;
-    height: 100%;
-
     display: felx;
     align-items: center;
     justify-content: center;
@@ -72,20 +66,20 @@ form .input-group {
 
 }
 
-form .input-group .input-box {
+form .input-box {
     width: 100%;
 
     margin-block: 5px;
 
 }
 
-form .input-group .input-box label {
+form .input-box label {
     color: #344054;
     margin-bottom: 10px;
 
 }
 
-form .input-group .input-box input {
+form .input-box input {
     width: 100%;
     height: 44px;
 
@@ -97,16 +91,16 @@ form .input-group .input-box input {
 }
 
 
-form .input-group .input-box input::placeholder{
+form .input-box input::placeholder{
     color: #667085;
     font-size: 15px;
 }
 
-form .input-group .input-box small{
+form .input-box small{
     visibility: hidden;
 }
 
-form .input-group .remember {
+form .remember {
     width: 100%;
     height: 20px;
 
@@ -120,26 +114,26 @@ form .input-group .remember {
     
 }
 
-form .input-group .remember input {
+form .remember input {
     border: 1px solid #D0D5DD;
     margin-right: 8px;
 }
 
-form .input-group .remember a {
+form .remember a {
     text-decoration: none;
     color: #5429FF;
 }
 
-form .input-group .button-box {
+form .button-box {
     width: 100%;
 }
 
-form .input-group .button-box button:nth-child(1) {
+form .button-box button:nth-child(1) {
     background-color: #5429FF;
     color: #CBCCE8;
 }
 
-form .input-group .button-box button {
+form .button-box button {
     width: 100%;
     height: 44px;
 
@@ -163,16 +157,16 @@ form .input-group .button-box button {
     margin-right: 15px;
 }
 
-form .input-group .input-box.success input {
+.input-box.success input {
     border-color: limegreen;
 }
 
-form .input-group .input-box.error input {
+.input-box.error input {
     border-color: #ff0000;
 }
 
-form .input-group .input-box.error small {
-    border-color: #ff0000;
+.input-box.error small {
+    color: #ff0000;
     visibility: visible;
 }
 
